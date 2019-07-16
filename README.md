@@ -5,7 +5,18 @@
 npm install node-ews
 ```
 
-#### Updates in 3.2.0 (new)
+#### Updates in 4.0.0 (new)
+
+- updated the following npm modules:
+  - `debug^2.3.3`,
+  - `httpntlm^1.7.3"`,
+  - `lodash^4.17.2"`,
+  - `request^2.79.0`,
+  - `soap^0.28.0`,
+  - `tmp^0.0.28`,
+  - `when^3.7.7`
+
+#### Updates in 3.2.0
 - Reverted back to official soap library to address workaround in issue #17
 - Added Notifications from PR #50 (See example 5)
 - Code cleanup
