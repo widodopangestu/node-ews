@@ -1,10 +1,11 @@
 {
   "name": "@egodigital/node-ews",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "A simple JSON wrapper for the Exchange Web Services (EWS) SOAP API",
   "main": "./index.js",
   "private": false,
   "scripts": {
+    "deploy": "npm install && npm audit fix && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nicholas Marus",
@@ -20,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cumberlandgroup/node-ews.git"
+    "url": "git+https://github.com/egodigital/node-ews.git"
   },
   "keywords": [
     "node",
@@ -33,7 +34,7 @@
     "json"
   ],
   "bugs": {
-    "url": "https://github.com/cumberlandgroup/node-ews/issues"
+    "url": "https://github.com/egodigital/node-ews/issues"
   },
-  "homepage": "https://github.com/cumberlandgroup/node-ews#readme"
+  "homepage": "https://github.com/egodigital/node-ews#readme"
 }
