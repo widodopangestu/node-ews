@@ -2,10 +2,10 @@
 ###### A simple JSON wrapper for the Exchange Web Services (EWS) SOAP API
 
 ```
-npm install node-ews
+npm install --save @egodigital/node-ews
 ```
 
-#### Updates in 4.0.0 (new)
+#### Updates in 4.0.1 (new)
 
 - updated the following npm modules:
   - `debug^2.3.3`,
