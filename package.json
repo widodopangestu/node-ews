@@ -1,6 +1,6 @@
 {
   "name": "@egodigital/node-ews",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "description": "A simple JSON wrapper for the Exchange Web Services (EWS) SOAP API",
   "main": "./index.js",
   "private": false,
@@ -13,7 +13,7 @@
   "dependencies": {
     "debug": "^2.3.3",
     "httpntlm": "^1.7.3",
-    "lodash": "^4.17.2",
+    "lodash": "^4.17.15",
     "request": "^2.79.0",
     "soap": "^0.28.0",
     "tmp": "^0.0.28",
