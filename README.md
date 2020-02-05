@@ -6,6 +6,11 @@
 npm install --save @egodigital/node-ews
 ```
 
+#### Updates in 4.1.0
+
+- updated the following npm modules:
+  - `lodash^4.17.15`
+
 #### Updates in 4.0.2 (new)
 
 - updated the following npm modules:
