@@ -1,9 +1,9 @@
-# @egodigital/node-ews
+# @widodopangestu/node-ews
 
 ###### A simple JSON wrapper for the Exchange Web Services (EWS) SOAP API
 
 ```
-npm install --save @egodigital/node-ews
+npm install --save @widodopangestu/node-ews
 ```
 
 #### Updates in 4.1.0
@@ -42,7 +42,7 @@ returns responses as json objects.
 #### Example 1: Get Exchange Distribution List Members Using ExpandDL
 ###### https://msdn.microsoft.com/EN-US/library/office/aa564755.aspx
 ```js
-const EWS = require('@egodigital/node-ews');
+const EWS = require('@widodopangestu/node-ews');
 
 // exchange server connection info
 const ewsConfig = {
@@ -51,7 +51,7 @@ const ewsConfig = {
   host: 'https://ews.domain.com'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 
 // define ews api function
@@ -77,7 +77,7 @@ ews.run(ewsFunction, ewsArgs)
 #### Example 2: Setting OOO Using SetUserOofSettings
 ###### https://msdn.microsoft.com/en-us/library/office/aa580294.aspx
 ```js
-const EWS = require('@egodigital/node-ews');
+const EWS = require('@widodopangestu/node-ews');
 
 // exchange server connection info
 const ewsConfig = {
@@ -86,7 +86,7 @@ const ewsConfig = {
   host: 'https://ews.domain.com'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 
 // define ews api function
@@ -126,7 +126,7 @@ ews.run(ewsFunction, ewsArgs)
 #### Example 3: Getting OOO Using GetUserOofSettings
 ###### https://msdn.microsoft.com/en-us/library/office/aa563465.aspx
 ```js
-const EWS = require('@egodigital/node-ews');
+const EWS = require('@widodopangestu/node-ews');
 
 // exchange server connection info
 const ewsConfig = {
@@ -135,7 +135,7 @@ const ewsConfig = {
   host: 'https://ews.domain.com'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 
 // define ews api function
@@ -162,7 +162,7 @@ ews.run(ewsFunction, ewsArgs)
 ##### https://msdn.microsoft.com/en-us/library/office/aa566468
 
 ```js
-const EWS = require('@egodigital/node-ews');
+const EWS = require('@widodopangestu/node-ews');
 
 // exchange server connection info
 const ewsConfig = {
@@ -171,7 +171,7 @@ const ewsConfig = {
   host: 'https://ews.domain.com'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 
 // define ews api function
@@ -274,7 +274,7 @@ ews.run('Subscribe', ewsConfig);
 Below is a template that works with Office 365.
 
 ```js
-const EWS = require('@egodigital/node-ews');
+const EWS = require('@widodopangestu/node-ews');
 
 // exchange server connection info
 const ewsConfig = {
@@ -284,7 +284,7 @@ const ewsConfig = {
   auth: 'basic'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 
 // define ews api function
@@ -314,7 +314,7 @@ ews.run(ewsFunction, ewsArgs)
 To add an optional soap header to the Exchange Web Services request, you can pass an optional 3rd variable to the ews.run() function as demonstrated by the following:
 
 ```js
-const EWS = require('@egodigital/node-ews');
+const EWS = require('@widodopangestu/node-ews');
 
 // exchange server connection info
 const ewsConfig = {
@@ -323,7 +323,7 @@ const ewsConfig = {
   host: 'https://ews.domain.com'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 
 // define ews api function
@@ -377,7 +377,7 @@ const ewsConfig = {
     host: 'https://ews.domain.com'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 ```
 
@@ -392,7 +392,7 @@ const ewsConfig = {
   auth: 'basic'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 ```
 
@@ -407,7 +407,7 @@ const ewsConfig = {
   auth: 'bearer'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 ```
 
@@ -440,7 +440,7 @@ const ews = new EWS(config, options);
 
 #### Specify Temp Directory:
 
-By default, @egodigital/node-ews creates a temp directory to store the xsd and wsdl file retrieved from the Exchange Web Service Server.
+By default, @widodopangestu/node-ews creates a temp directory to store the xsd and wsdl file retrieved from the Exchange Web Service Server.
 
 To override this behavior and use a persistent folder add the following to your config object.
 
@@ -453,7 +453,7 @@ const ewsConfig = {
   temp: '/path/to/temp/folder'
 };
 
-// initialize @egodigital/node-ews
+// initialize @widodopangestu/node-ews
 const ews = new EWS(ewsConfig);
 ```
 
@@ -480,7 +480,7 @@ Take the example of "[FindItem](https://msdn.microsoft.com/en-us/library/office/
 </soap:Envelope>
 ```
 
-The equivalent JSON Request for @egodigital/node-ews (ewsArgs) would be:
+The equivalent JSON Request for @widodopangestu/node-ews (ewsArgs) would be:
 
 ```js
 {
