@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egodigital/node-ews.git"
+    "url": "git+https://github.com/widodopangestu/node-ews.git"
   },
   "keywords": [
     "node",
@@ -34,7 +34,7 @@
     "json"
   ],
   "bugs": {
-    "url": "https://github.com/egodigital/node-ews/issues"
+    "url": "https://github.com/widodopangestu/node-ews/issues"
   },
-  "homepage": "https://github.com/egodigital/node-ews#readme"
+  "homepage": "https://github.com/widodopangestu/node-ews#readme"
 }
